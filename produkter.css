@@ -1,0 +1,35 @@
+p{
+    
+}
+h1{
+    color: lightgoldenrodyellow;
+}
+body
+{
+background-image: url('Coffee-Market-background.jpg');
+background-position-x: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: black;
+display: block;
+max-width: center;
+margin: auto;
+text-align: center;
+}
+td{
+    color: lightgoldenrodyellow; 
+}
+th{
+    color: lightgoldenrodyellow;
+}
+
+
+.col-sm-6{
+    color: lightgoldenrodyellow;
+}
+footer{
+    height: ;
+    background-color:rgb(7, 77, 77);
+    
+    border-width: feComponentTransfer;
+}

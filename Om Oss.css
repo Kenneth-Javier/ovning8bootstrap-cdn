@@ -1,0 +1,21 @@
+p{
+    
+}
+body
+{
+background-image: url('Coffee-Market-background.jpg');
+background-position-x: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: black;
+display: block;
+max-width: center;
+margin: auto;
+text-align: center;
+}
+footer{
+    height: ;
+    background-color:rgb(7, 77, 77);
+    
+    border-width: feComponentTransfer;
+}

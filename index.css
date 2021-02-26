@@ -1,0 +1,68 @@
+
+body
+{
+min-height: 100%;
+background-image: url('Coffee-Market-background.jpg');
+background-position-x: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: black;
+display: block;
+
+margin: auto;
+text-align: center;
+}
+
+.container-fluid{
+    display: flex;
+
+}
+.row{
+
+ 
+    color: lightgoldenrodyellow;
+}
+.col-md-3{
+color: lightgoldenrodyellow;
+display:flex;
+
+height: auto;
+font-size: 4rem;
+
+}
+.col-md-4{
+    color: lightgoldenrodyellow;
+
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.col-md-3:hover {
+    animation: shake 0.1s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+footer{
+    
+    background-color:rgb(7, 77, 77);
+    
+    border-width: feComponentTransfer;
+    min-height: 100%;
+    
+}
